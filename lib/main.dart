@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'FirstPage.dart';
+import 'FirstScreen/FirstPage.dart';
+import 'Second Screen/SecondPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter App',
       theme: ThemeData(
       ),
-      home: FirstPage(),
+      home: SecondPage(),
+      // To view first page replace SecondPage() with FirstPage()
     );
   }
 }
