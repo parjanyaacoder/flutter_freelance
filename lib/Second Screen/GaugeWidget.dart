@@ -20,6 +20,8 @@ class GaugeWidget extends StatelessWidget {
       child: SfRadialGauge(
         axes: <RadialAxis>[
           RadialAxis(minimum: 0,maximum: 150,showLabels: false,
+              axisLineStyle: AxisLineStyle(thickness: 25,color: SetColors.subHeadingText
+              ),
               radiusFactor: 0.65,
               showTicks: false,
               centerX: 0.4,

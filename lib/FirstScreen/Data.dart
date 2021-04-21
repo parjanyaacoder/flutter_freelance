@@ -1,8 +1,7 @@
 class Data {
   final int duration;
-  final int data;
+  final double data;
 
   Data(this.duration, this.data);
-
 
 }

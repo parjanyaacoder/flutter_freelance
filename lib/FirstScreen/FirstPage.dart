@@ -12,11 +12,11 @@ class FirstPage extends StatefulWidget {
 class _FirstPageState extends State<FirstPage> {
 
   final List<Data> chartData = [
-    Data(1, 35),
-    Data(2,40),
-    Data(3, 28),
-    Data(6, 34),
-    Data(12, 32),
+    Data(1, 35.7),
+    Data(2,40.3),
+    Data(3, 28.6),
+    Data(6, 34.7),
+    Data(12, 32.2),
   ];
 
   @override
